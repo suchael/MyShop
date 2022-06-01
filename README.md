@@ -1,63 +1,55 @@
-# 🛒 SHOPPING CART
+# 🛒 Shopping Cart
 
-*Transform Shopping into Seamless, Effortless Experiences*
+A simple shopping cart application built with **Spring Boot** to demonstrate core e-commerce backend concepts.
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Built with the tools and technologies:**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 
 ---
 
-## 📋 Table of Contents
+## Overview
 
-- [📖 Overview](#overview)
-- [🚀 Getting Started](#getting-started)
-  - [✅ Prerequisites](#prerequisites)
-  - [⚙️ Installation](#installation)
-  - [🎯 Usage](#usage)
-  - [🧪 Testing](#testing)
+Shopping Cart is a Spring Boot project that covers the basics of building an online store backend.  
+It focuses on clean structure, clear separation of concerns, and common e-commerce features.
+
+The project is suitable for learning, demos, and small-scale extensions.
 
 ---
 
-## 📖 Overview
+## Features
 
-Shopping_Cart is a robust Spring Boot-based e-commerce platform designed to streamline the development of modern shopping experiences. It combines a flexible architecture with ready-to-use templates, enabling developers to quickly build, customize, and manage scalable e-commerce websites.
-
-### 🤔 Why Shopping Cart?
-
-This project simplifies the creation of full-featured online stores with a focus on user engagement and content management. Key features include:
-
-🎨 **Modular Templates**: Pre-built pages for home, product listings, user authentication, and admin dashboards, ensuring a cohesive user experience.
-
-🔧 **Admin Management**: Tools for adding products and categories, streamlining inventory and content management.
-
-🏗️ **Spring Boot Foundation**: A scalable, maintainable backend that supports growth and customization.
-
-📐 **Organized Architecture**: Clear separation of concerns with dedicated controllers, models, repositories, and resources.
-
-🔍 **User-Centric Features**: Search, filtering, detailed product views, and secure login to enhance shopping engagement.
+- Product and category management  
+- User authentication  
+- Shopping cart functionality  
+- Admin and user separation  
+- MVC-based project structure (Controller / Service / Repository)
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
 
-### ✅ Prerequisites
+- **Java**
+- **Spring Boot**
+- **Maven**
+- **HTML / CSS**
 
-This project requires the following dependencies:
+---
 
-- **Programming Language**: HTML
-- **Package Manager**: Maven
+## Getting Started
 
-### ⚙️ Installation
+### Prerequisites
 
-Build Shopping_Cart from the source and install dependencies:
+- Java 8+
+- Maven
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/abhishekprojects/Shopping_Cart
-   ```
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abhishekprojects/Shopping_Cart
+cd Shopping_Cart
+```
 
 2. **Navigate to the project directory:**
    ```bash
@@ -71,7 +63,7 @@ Build Shopping_Cart from the source and install dependencies:
    mvn install
    ```
 
-### 🎯 Usage
+### Usage
 
 Run the project with:
 
@@ -80,7 +72,7 @@ Using **maven**:
 mvn exec:java
 ```
 
-### 🧪 Testing
+### Testing
 
 Shopping_Cart uses the **test_framework** test framework. Run the test suite with:
 
@@ -90,21 +82,3 @@ mvn test
 ```
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with Spring Boot framework
-- Icons and badges from Shields.io
-- Thanks to all contributors who help improve this project
-
----
-
-⭐ **Star this repository if you find it helpful!** ⭐
